@@ -1,0 +1,6 @@
+#!/bin/sh
+checkId=$1
+field=$2
+newValue=$3
+file=$4
+cat $file|/usr/bin/awk 'BEGIN { FS = "|";OFS = "|" } ; {if($1=='$checkId'){ $'$field'='$newValue';}print $0}'

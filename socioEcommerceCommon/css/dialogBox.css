@@ -1,0 +1,151 @@
+.opacityDialogBox{
+    display:none;
+
+}
+#dialogBox{
+    width:600px;
+    height:400px;
+    margin:0 auto;
+    border:#eeeeee solid thin;
+    z-index: 12;
+    background-color: white;
+    position: fixed;
+    left: 500px;
+    top:100px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+#dialogBox p{
+    margin: 0px;
+}
+
+#mainContentDialogBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#header_dialogBox{
+    width: auto;
+    height: 10%;
+    padding:1em;
+    margin: 3px;
+    border-bottom: #eeeeee solid thin;
+}
+
+#dialogContent{
+    height: 60%;
+}
+#col1_dialogBox,#col2_dialogBox{
+    width: 43%;
+    height: 85%;
+    display: inline-block;
+    padding: 1em;
+    margin: 3px 3px 3px 5px;
+    float: left;
+}
+#col2_dialogBox{
+    border: #eeeeee solid thin;;
+}
+
+#footer_dialogBox{
+
+    width: auto;
+    height: 10%;
+    padding:1em;
+    margin: 3px;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+.rfloat{
+    float: right;
+}
+
+
+
+.imageInDialogBox{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.roundedBorderImage{
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.DialogroundedBorderImage{
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+#checkBoxSection{
+    height: 80%;
+}
+
+.labelsCheckBox{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-top: 1px;
+
+}
+#createNewList{
+    border: #500 solid thin;
+    height: 35px;
+}
+
+.noOutline{
+    outline:none;
+    border: none;
+}
+
+.width_100p{
+    width: 95.5%;
+
+}
+.textBox_Dialog{
+    display: inline-block;
+    padding: 5px;
+    margin:auto;
+    height: 25px;
+    line-height: 20px;
+
+}
+.mainHeading{
+    color:#015B86; 
+    font-size: large;
+
+}
+
+.subHeading{
+    color:#494949;
+    font-size: small;
+}
+
+#moreInfo  a {
+    color:#015B86;
+    text-decoration: none;
+
+}
+.opacity{
+    background-color: #000000;
+    position: fixed;
+    left:0px;
+    top:0px;
+    right: 0px;
+    opacity:1;
+    height:775px;
+    z-index: 11;
+
+}
+.close{
+    float:right;
+    cursor:pointer;
+}

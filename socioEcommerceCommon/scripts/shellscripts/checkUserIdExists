@@ -1,0 +1,4 @@
+#!/bin/sh
+checkId=$1
+cat /Applications/MAMP/htdocs/socioEcommerceCommon/metadata/userinfo|/usr/bin/awk 'BEGIN { FS = "|" } ; {if($1=='$checkId'){ print "exists";}}'
+

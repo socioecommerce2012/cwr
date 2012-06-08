@@ -1,0 +1,550 @@
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlUtilities] ::Updating User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:42:09] ::[mysqlUtilities] ::Updation was Successful for user with100003966751418
+[INFO]::[08/06/12 : 12:42:10] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:42:10] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:42:10] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:42:10] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:42:10] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:42:10] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlUtilities] ::Updating User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:42:52] ::[mysqlUtilities] ::Updation was Successful for user with100003966751418
+[INFO]::[08/06/12 : 12:42:53] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:42:53] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:42:53] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:42:53] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:42:53] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:42:53] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlUtilities] ::Updating User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:08] ::[mysqlUtilities] ::Updation was Successful for user with100003966751418
+[INFO]::[08/06/12 : 12:44:09] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:44:09] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:09] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:09] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:09] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:09] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlUtilities] ::Updating User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:26] ::[mysqlUtilities] ::Updation was Successful for user with100003966751418
+[INFO]::[08/06/12 : 12:44:27] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:44:27] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:27] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:27] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:27] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:27] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlUtilities] ::Updating User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:45] ::[mysqlUtilities] ::Updation was Successful for user with100003966751418
+[INFO]::[08/06/12 : 12:44:46] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:44:46] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:46] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:46] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:46] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:46] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlUtilities] ::Updating User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:52] ::[mysqlUtilities] ::Updation was Successful for user with100003966751418
+[INFO]::[08/06/12 : 12:44:53] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:44:53] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:44:53] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:44:53] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:44:53] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:44:53] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:51:51] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:51:51] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:51:51] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:51:51] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:52:56] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:52:56] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:52:56] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:53:19] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:53:19] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:53:19] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:53:19] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:53:19] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:53:19] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlUtilities] ::Inserting User Information with userId 100003966751418
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:53:22] ::[mysqlUtilities] ::Insertion Information was successful 100003966751418
+[INFO]::[08/06/12 : 12:53:23] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:53:23] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:53:23] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:53:23] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:53:23] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:53:23] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:54:52] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:54:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:54:52] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlUtilities] ::Checking User Status 100003966751418
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlUtilities] ::Execution Of Checking User Status  100003966751418 was Successful
+[INFO]::[08/06/12 : 12:54:57] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:54:57] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:54:57] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 12:55:28] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:55:28] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:55:28] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:55:28] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:55:28] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 12:55:28] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlUtilities] ::Inserting User Information with userId 1626916972
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:55:31] ::[mysqlUtilities] ::Insertion Information was successful 1626916972
+[INFO]::[08/06/12 : 12:55:34] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 12:55:34] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 12:55:34] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 12:55:34] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 12:55:34] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 12:55:34] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:02:19] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:02:19] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:02:19] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:02:19] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:02:19] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:02:19] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:02:41] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:02:41] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:02:41] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:02:41] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:02:41] ::[mysqlUtilities] ::Checking User Status 0
+[INFO]::[08/06/12 : 13:02:41] ::[mysqlUtilities] ::Execution Of Checking User Status  0 was Successful
+[INFO]::[08/06/12 : 13:04:10] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:04:10] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:04:10] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:04:10] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:04:10] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:04:10] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlUtilities] ::Inserting User Information with userId 1626916972
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:04:14] ::[mysqlUtilities] ::Insertion Information was successful 1626916972
+[INFO]::[08/06/12 : 13:04:15] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:04:15] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:04:15] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:04:15] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:04:15] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:04:15] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:04:35] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:04:35] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:04:35] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:06:29] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:06:29] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:06:29] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:09:14] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:09:14] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:09:14] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:09:14] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:09:14] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:09:14] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:09:21] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:09:21] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:09:21] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:09:21] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:09:21] ::[mysqlUtilities] ::Checking User Status 0
+[INFO]::[08/06/12 : 13:09:21] ::[mysqlUtilities] ::Execution Of Checking User Status  0 was Successful
+[INFO]::[08/06/12 : 13:09:39] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:09:39] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:09:39] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:09:39] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:09:39] ::[mysqlUtilities] ::Checking User Status 0
+[INFO]::[08/06/12 : 13:09:39] ::[mysqlUtilities] ::Execution Of Checking User Status  0 was Successful
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:10:21] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:10:21] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:10:21] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:13:10] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:13:10] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:13:10] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:16:32] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:16:32] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:16:32] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:16:32] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:16:32] ::[mysqlUtilities] ::Checking User Status 0
+[INFO]::[08/06/12 : 13:16:32] ::[mysqlUtilities] ::Execution Of Checking User Status  0 was Successful
+[INFO]::[08/06/12 : 13:17:27] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:17:27] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:17:27] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:17:27] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:17:27] ::[mysqlUtilities] ::Checking User Status 0
+[INFO]::[08/06/12 : 13:17:27] ::[mysqlUtilities] ::Execution Of Checking User Status  0 was Successful
+[INFO]::[08/06/12 : 13:18:00] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:18:00] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:18:00] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:18:00] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:18:00] ::[mysqlUtilities] ::Checking User Status 0
+[INFO]::[08/06/12 : 13:18:00] ::[mysqlUtilities] ::Execution Of Checking User Status  0 was Successful
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:19:19] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:19:19] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:19:19] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:19:30] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:19:30] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:19:30] ::[ImagesFromDb] ::Successful in Fetching Images From Db
+[INFO]::[08/06/12 : 13:22:38] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category men
+[INFO]::[08/06/12 : 13:22:38] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:38] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:38] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:38] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:38] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorymen
+[INFO]::[08/06/12 : 13:22:41] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category women
+[INFO]::[08/06/12 : 13:22:41] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:41] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:41] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:41] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:41] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorywomen
+[INFO]::[08/06/12 : 13:22:43] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category kids
+[INFO]::[08/06/12 : 13:22:43] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:43] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:43] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:43] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:43] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorykids
+[INFO]::[08/06/12 : 13:22:45] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category pets
+[INFO]::[08/06/12 : 13:22:45] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:45] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:45] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:45] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:45] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorypets
+[INFO]::[08/06/12 : 13:22:46] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category home decor
+[INFO]::[08/06/12 : 13:22:46] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:46] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:46] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:46] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:46] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryhome decor
+[INFO]::[08/06/12 : 13:22:47] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category handicrafts
+[INFO]::[08/06/12 : 13:22:47] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:47] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:47] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:47] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:47] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryhandicrafts
+[INFO]::[08/06/12 : 13:22:48] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category fashion
+[INFO]::[08/06/12 : 13:22:48] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:48] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:48] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:48] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:48] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryfashion
+[INFO]::[08/06/12 : 13:22:49] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category gadget
+[INFO]::[08/06/12 : 13:22:49] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:49] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:49] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:49] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:49] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorygadget
+[INFO]::[08/06/12 : 13:22:50] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category art
+[INFO]::[08/06/12 : 13:22:50] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:50] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:50] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:50] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:50] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryart
+[INFO]::[08/06/12 : 13:22:51] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category food
+[INFO]::[08/06/12 : 13:22:51] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:51] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:51] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:51] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:51] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryfood
+[INFO]::[08/06/12 : 13:22:52] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category architecture
+[INFO]::[08/06/12 : 13:22:52] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:52] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:52] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:52] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:53] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryarchitecture
+[INFO]::[08/06/12 : 13:22:53] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category sportsAndOutdoors
+[INFO]::[08/06/12 : 13:22:53] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:53] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:53] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:53] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:53] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorysportsAndOutdoors
+[INFO]::[08/06/12 : 13:22:54] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category carsAndBikes
+[INFO]::[08/06/12 : 13:22:54] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:54] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:54] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:54] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:54] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorycarsAndBikes
+[INFO]::[08/06/12 : 13:22:55] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category other
+[INFO]::[08/06/12 : 13:22:55] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:55] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:55] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:55] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:55] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryother
+[INFO]::[08/06/12 : 13:22:56] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category men
+[INFO]::[08/06/12 : 13:22:56] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:56] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:56] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:56] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:56] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorymen
+[INFO]::[08/06/12 : 13:22:58] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category women
+[INFO]::[08/06/12 : 13:22:58] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:58] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:58] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:58] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:58] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorywomen
+[INFO]::[08/06/12 : 13:22:59] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category kids
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:59] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorykids
+[INFO]::[08/06/12 : 13:22:59] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category pets
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:22:59] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:22:59] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorypets
+[INFO]::[08/06/12 : 13:23:00] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category home decor
+[INFO]::[08/06/12 : 13:23:00] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:00] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:00] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:00] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:01] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryhome decor
+[INFO]::[08/06/12 : 13:23:01] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category handicrafts
+[INFO]::[08/06/12 : 13:23:01] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:01] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:01] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:01] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:01] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryhandicrafts
+[INFO]::[08/06/12 : 13:23:02] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category fashion
+[INFO]::[08/06/12 : 13:23:02] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:02] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:02] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:02] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:02] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryfashion
+[INFO]::[08/06/12 : 13:23:07] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category gadget
+[INFO]::[08/06/12 : 13:23:07] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:07] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:07] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:07] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:07] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorygadget
+[INFO]::[08/06/12 : 13:23:08] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category food
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:08] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryfood
+[INFO]::[08/06/12 : 13:23:08] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category architecture
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:08] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:08] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryarchitecture
+[INFO]::[08/06/12 : 13:23:09] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category sportsAndOutdoors
+[INFO]::[08/06/12 : 13:23:09] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:09] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:09] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:09] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:09] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorysportsAndOutdoors
+[INFO]::[08/06/12 : 13:23:10] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category carsAndBikes
+[INFO]::[08/06/12 : 13:23:10] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:10] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:10] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:10] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:10] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorycarsAndBikes
+[INFO]::[08/06/12 : 13:23:11] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category other
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:11] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryother
+[INFO]::[08/06/12 : 13:23:11] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category handicrafts
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:11] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:11] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryhandicrafts
+[INFO]::[08/06/12 : 13:23:12] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category home decor
+[INFO]::[08/06/12 : 13:23:12] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:12] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:12] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:12] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:12] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categoryhome decor
+[INFO]::[08/06/12 : 13:23:13] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category pets
+[INFO]::[08/06/12 : 13:23:13] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:13] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:13] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:13] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:13] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorypets
+[INFO]::[08/06/12 : 13:23:14] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category women
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:14] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorywomen
+[INFO]::[08/06/12 : 13:23:14] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category kids
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:14] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:14] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorykids
+[INFO]::[08/06/12 : 13:23:15] ::[ImagesFromDb] ::Trying To Fetch Images From Db according for category men
+[INFO]::[08/06/12 : 13:23:15] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:15] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:15] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:15] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:15] ::[ImagesFromDb] ::Successful in Fetching Images From Db for categorymen
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlUtilities] ::Checking User Status 1626916972
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlUtilities] ::Execution Of Checking User Status  1626916972 was Successful
+[INFO]::[08/06/12 : 13:23:18] ::[ImagesFromDb] ::Trying To Fetch Images From Db
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Trying to establish mysql connection
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Connection to mysql Successful
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Trying to connect to database
+[INFO]::[08/06/12 : 13:23:18] ::[mysqlBaseClass] ::Connection to db... Successful
+[INFO]::[08/06/12 : 13:23:18] ::[ImagesFromDb] ::Successful in Fetching Images From Db
