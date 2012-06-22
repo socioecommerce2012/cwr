@@ -1,66 +1,69 @@
 <?php
-$state = $_REQUEST['state'];
-$code = $_REQUEST['code'];
-
-
-session_start();
-$_SESSION['loggedIn'] = "no";
-$_SESSION['userId'] = "Guest";
+include_once('../php/mysql/ImagesFromDb.php');
+include_once('../php/webpages/homePagePhp.php');
+include_once('../php/fb/faceBookDefines.php');
+include_once('../php/php-sdk/src/facebook.php');
+include_once('../php/fb/getFromfb.php');
+include_once('../php/fb/FBBasicInfo.php');
+include_once('../php/mysql/dbCommonFunction.php');
 
 ?>
 
 
 <?php
-$pathInfo = '../php/constants/PathConstants.php';
-include($pathInfo);
-include_once($FB_GLOBAL_DEFINES);
-include($FB_PHP);
-include($FB_BASIC_INFO);
-include('../php/mysql/dbCommonFunction.php');
-global $userLoggedIn;
+$code = null;
+if (isset($_REQUEST['state'])) {
+    $state = $_REQUEST['state'];
+}
+if (isset($_REQUEST['code'])) {
+    $code = $_REQUEST['code'];
+}
+session_start();
+$_SESSION['loggedIn'] = "no";
+$_SESSION['userId'] = "Guest";
+?>
+
+
+<?php
 global $logoutUrl;
 
 $config = array(
     'appId' => $appId,
     'secret' => $appSecret,
 );
+
 if (!is_null($code)) {
+
     $_SESSION['state'] = $state;
     $_SESSION['code'] = $code;
     $_SESSION['loggedIn'] = "Yes";
-    
+
+
     $facebook = new Facebook($config);
     $userId = $facebook->getUser();
+
+
     if ($userId != 0) {
         $_SESSION['userId'] = $userId;
         $_SESSION['loggedIn'] = "Yes";
     } else {
-
-        $token_url = "https://graph.facebook.com/oauth/access_token?" . "client_id=" . $appId . "&redirect_uri=" . urlencode("http://localhost:8888/ecommerce/src/homeV5.php") . "&client_secret=" . $appSecret . "&code=" . $code;
+        $token_url = "https://graph.facebook.com/oauth/access_token?" . "client_id=" . $appId . "&redirect_uri=" . urlencode($redirectUrl) . "&client_secret=" . $appSecret . "&code=" . $code;
         $response = file_get_contents($token_url);
         $params = null;
         parse_str($response, $params);
         $accesstoken = $params['access_token'];
-        $facebook->setAccessToken($params['access_token']);
+        $facebook->setAccessToken($accesstoken);
         $userId = $facebook->getUser();
         $_SESSION['userId'] = $userId;
     }
+
     $checkUserStatus = checkUserStatus($userId);
-   
+
     if ($checkUserStatus == 0) {
-
-        $userProfile = $facebook->api('/me', 'GET');
-
-        $userProfilePicArray = $facebook->api('/me?fields=picture', 'GET');
-
-        $fbBasicInfo = new FBBasicInfo($userProfile, $userProfilePicArray);
-
-        $userlikes = $facebook->api('/me/likes', 'GET');
-        
+        $queryFBObj = new fb($facebook->getAccessToken());
+        $fBBasicInfo = new FBBasicInfo($queryFBObj);
     }
-   
-    
-    $logoutconfig = array('next' => $LOGIN_PAGE_NO_USER_URL);
+    $logoutconfig = array('next' => $LOGIN_PAGE_NO_USER_URL."/");
 
     $logoutUrl = $facebook->getLogoutUrl($logoutconfig);
 }
@@ -109,25 +112,18 @@ if (!is_null($code)) {
     </head>
     <body>
         <?php
-        include("includes/modalDialogBox.php");
         include("includes/header.php");
-        include_once('../php/webpages/homePagePhp.php');
+        include("includes/modalDialogBox.php");
         ?>
         <div class="container">
             <div id="content">
                 <div id="space">hidden</div>
                 <div class="mainContent" style="position:relative">
                     <?php
-                    include_once('../php/mysql/ImagesFromDb.php');
-
-
-
-                    $arrayImageWithInfo = ImagesFromDb::getImages(0, 10);
-
+                    $arrayImageWithInfo = ImagesFromDb::getItems(null, null, 10);
                     $rowCount = 2;
-
                     $maxWidth = 730;
-
+                   
                     getImagesDivForPartner($arrayImageWithInfo, 0, $rowCount, $maxWidth);
                     ?>
                 </div>
@@ -153,7 +149,8 @@ if (!is_null($code)) {
                 $(".mainContent").on("click",".thoughtbot",function(event){
                     var parent = $(this).parent().get(0);
                     var srcOfImageElement= parent.getElementsByTagName("img")[0].getAttribute("src");
-                    displayModalBoxForShortDesc(event,userId,srcOfImageElement);
+                    var id = parent.getElementsByTagName("img")[0].getAttribute("id");
+                    displayModalBoxForShortDesc(srcOfImageElement,id);
                     
                 });
     
@@ -162,8 +159,8 @@ if (!is_null($code)) {
                 });
     
                 $("#moreInfo").on("click","a",function(event){
-                    var baseUrlItemDescription="http://localhost:8888/socioEcommerceCommon/src/itemDescription.php?url=";
-                    redirectToUrlForLongDesc(event,baseUrlItemDescription);
+                    var baseUrlItemDescription="http://ecom-socioecommerce2012.dotcloud.com/src/itemDescription.php?url=";
+                    redirectToUrlForLongDesc(baseUrlItemDescription);
                 });
             
     </script>

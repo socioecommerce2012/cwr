@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <script>
     
     $('body').on('click','a.category_label',function(){
@@ -58,7 +62,7 @@
 
                 <div class="col_1">
                     <ul>
-                        <li><a href="#" class="category_label" id="gadget">Gadgets</a></li>
+                        <li><a href="#" class="category_label" id="gadgets">Gadgets</a></li>
                         <li><a href="#" class="category_label" id="art">Art</a></li>
                         <li><a href="#" class="category_label" id="food">Food</a></li>
                         <li><a href="#" class="category_label" id="architecture">Architecture</a></li>
@@ -87,19 +91,24 @@
     <li>
         <a href="#" class="drop">Add</a><!-- Begin Home Item -->
     </li><!-- End Home Item -->
-
+    <?php if(strtolower($_SESSION["loggedIn"]) == strtolower("YES")) :?>
     <li class="menu_left"><a href="#" class="drop">Me</a>
         <div class="dropdown_1column align_left">
             <div class="col_1">
                 <ul class="simple">
+                    
                     <li><a href="#">My Favourites</a></li>
                     <li><a href="#">Shown To You</a></li>
                     <li><a href="#">My Catalog</a></li>
                     <li><a href="#">Help</a></li>
                     <li><a href="<?php echo $logoutUrl; ?>">Sign Out</a></li>
+                    
                 </ul>   
             </div>
         </div>
     </li>
+    <?php else :?>
+    <li class="menu_left"><a href="<?php echo $loginUrl?>" class="drop">Login</a></li>
+    <?php endif;?>
 </ul>
 

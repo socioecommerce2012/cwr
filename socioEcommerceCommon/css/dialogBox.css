@@ -10,8 +10,8 @@
     z-index: 12;
     background-color: white;
     position: fixed;
-    left: 500px;
-    top:100px;
+    left: 450px;
+    top:150px;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -148,4 +148,101 @@
 .close{
     float:right;
     cursor:pointer;
+}
+
+
+/*Carsouel*/
+.imageInsideScreen{
+    display: table-cell;
+    vertical-align: central;
+    margin-top:25px;
+}
+.carouselcontainer{
+    width: 1000px;
+    margin: 0 auto;
+    position:fixed;
+    left:300px;
+    
+}
+#trendingContainer{
+    top:40px;
+    z-index:200;
+}
+#recentContainer{
+    top:600px;
+    z-index: 200;
+}
+.mainCarousel{
+    width: 1000px;
+    margin: 0 auto;
+}
+.carousel_container{
+    position: relative;
+    left:0px;
+    width: 840px;
+    overflow: hidden;
+    display: inline-block;
+    float:left;
+}
+
+.leftArrowIndicator,.rightArrowIndicator{
+    display: inline-block;
+    position: relative;
+    color:#FFFFFF;
+    height: 40px;
+    float: left; 
+    background-color: #000;
+    line-height: 40px;
+    -webkit-border-radius: 50px; 
+    -moz-border-radius: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+}
+
+a.left,a.right{
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    display:block;
+    margin-left: 0 auto;
+}
+.leftArrowIndicator{
+    width: 40px;
+}
+.rightArrowIndicator{
+    width: 40px;
+
+}
+#trending_collectionRecords,#recent_collectionRecords{
+    list-style: none;
+    width:10000px;
+    position:relative;
+    
+    
+}
+.carousel_records{
+    display: inline-block;
+    position:relative;
+    float: left;
+    margin: 0 10px;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+.screen{
+    width:350px;
+    height: 300px;
+    border: #000 solid thin;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
 }

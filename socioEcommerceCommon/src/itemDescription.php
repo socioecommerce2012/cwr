@@ -9,12 +9,14 @@ $imageInfo = $_POST['imageInfo'];
 $category = $_POST['category'];
 
 
-$imageHeight = "445";
-
-
 $url = $_GET['url'];
 
 list($width, $height, $type, $attr) = getimagesize($url);
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -34,7 +36,6 @@ list($width, $height, $type, $attr) = getimagesize($url);
         <script>
             $(document).ready(function(){
                $('.userInfo').on('click','.getInfoForItem',function(){
-                  
                    if($(".info").css("display")==="none"){
                        $(".info").css("display","block");
                    }

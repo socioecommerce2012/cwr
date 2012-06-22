@@ -43,19 +43,18 @@ $(document).ready(function(){
 
 });
 
-function displayModalBoxForShortDesc(event,userId,srcOfImageElement){
+function displayModalBoxForShortDesc(srcOfImageElement,id){
     
     
-    displayModalDialog(srcOfImageElement);
+    displayModalDialog(srcOfImageElement,id);
     
     $.ajax({
         type : "POST",
         url : '../src/storeEvents.php',
         data:{
             event:"mayBeInterested",
-            itemId:srcOfImageElement,
-            userId:userId,
-            timeStamp:event.timeStamp
+            itemId:srcOfImageElement
+            
         },
         success: function(data) {
             console.log("Event Stored Successfully");
@@ -66,23 +65,47 @@ function displayModalBoxForShortDesc(event,userId,srcOfImageElement){
     });
 }
 
-function setContentInModalDialog(srcOfImageElement){
+function setContentInModalDialog(srcOfImageElement,id){
     
-    $("..imageInDialogBox > .roundedBorderImage").attr("src",srcOfImageElement);
+    $.ajax({
+        type : "POST",
+        url : '../src/getItemInfo.php',
+        data:{
+            itemId:id
+        },
+        success: function(data) {
+            dataObj = JSON.parse(data);
+            title = dataObj.title;
+            shortDescription = dataObj.description;
+            price=dataObj.price;
+            discount=dataObj.discount;
+            $("#modal_titleItem").html("");
+            $("#description").html("");
+            $("#price").html("")
+            $("#discount").html("");
+            $("#modal_titleItem").html(title);
+            $("#description").html(shortDescription);
+            $("#price").html(price);
+            $("#discount").html(discount);
+            $(".imageInDialogBox > .roundedBorderImage").attr("src",srcOfImageElement);
+            $(".opacityDialogBox").css("display","inline-block");
+            document.body.style.overflow="hidden";
+        },
+        error : function() {
+            alert("Sorry, The requested property could not be found.");
+        }
+    });
     
 }
 
 
-function displayModalDialog(srcOfImageElement)
+function displayModalDialog(srcOfImageElement,id)
 {
-    
-    setContentInModalDialog(srcOfImageElement);
-    $(".opacityDialogBox").css("display","inline-block");
-    document.body.style.overflow="hidden";
+    setContentInModalDialog(srcOfImageElement,id);
 }
 
 
-function redirectToUrlForLongDesc(event,baseUrlItemDescription)
+function redirectToUrlForLongDesc(baseUrlItemDescription)
 {
   
     var urlImage=$(".imageInDialogBox > .roundedBorderImage").attr("src");

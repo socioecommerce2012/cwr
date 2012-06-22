@@ -3,6 +3,8 @@
 function getAllFileNamesInDir($directoryName, $parentDir, $count) {
     $fileNames = array();
     $marker = 0;
+    error_log("DIRECTORY PATH ".$directoryName);
+    error_log(realpath($directoryName));
     if ($handle = opendir($directoryName)) {
         /* This is the correct way to loop over the directory. */
         while (false !== ($entry = readdir($handle)) && $marker < $count) {
@@ -51,11 +53,38 @@ function getImagesInfoV2($arrayImages) {
     return $arrayImages;
 }
 
+function getImagesInfoForUrl($imageUrl) {
+    
+    
+
+        if (strpos($imageUrl, ".jpeg") || strpos($imageUrl, ".jpeg")) {
+
+            $image = imagecreatefromjpeg($imageUrl);
+        }
+        if (strpos($imageUrl, ".gif") || strpos($imageUrl, ".gif")) {
+            $image = imagecreatefromgif($imageUrl);
+        }
+        if (strpos($imageUrl, ".jpg") || strpos($imageUrl, ".jpg")) {
+
+            $image = imagecreatefromjpeg($imageUrl);
+        }
+
+        if (strpos($imageUrl, ".png")) {
+            $image = imagecreatefrompng($imageUrl);
+        }
+
+        $width = imagesx($image);
+        $height = imagesy($image);
+        
+        $arrayImageWithInfo = array("url" => $imageUrl, "width" => $width, "height" => $height, "display" => "no");
+    
+    return $arrayImageWithInfo;
+}
 
 
 
 function getImagesInfo($arrayImages) {
-
+    
     for ($i = 0; $i < count($arrayImages); $i++) {
 
         if (strpos($arrayImages[$i]["url"], ".jpeg") || strpos($arrayImages[$i]["url"], ".jpeg")) {
@@ -109,7 +138,7 @@ function getImageCountInARow($arrayImageWithInfo, $maxImagesInRow, $marker, $max
                 $CountHeight[] = array("arrayImageWithInfo" => $arrayImageWithInfo, "count" => $count, "maxHeight" => $maxHeight, "totalWidth" => $width, "imagesInfo" => $imagesInfo);
                 return $CountHeight;
             }
-            $imagesInfo[] = array("url" => $arrayImageWithInfo[$i]["url"], "width" => $arrayImageWithInfo[$i]["width"], "height" => $arrayImageWithInfo[$i]["height"],"title"=>$arrayImageWithInfo[$i]["title"]);
+            $imagesInfo[] = array("url" => $arrayImageWithInfo[$i]["url"], "width" => $arrayImageWithInfo[$i]["width"], "height" => $arrayImageWithInfo[$i]["height"],"title"=>$arrayImageWithInfo[$i]["title"],"itemId"=>$arrayImageWithInfo[$i]["itemId"]);
 
             $arrayImageWithInfo[$i]["display"] = "yes";
             $arrayImageWithInfo[$i]["display"] = "yes";
@@ -175,8 +204,8 @@ function getImagesDivForPartner($arrayImageWithInfo, $startCount, $rowCount, $ma
                 $height = $imageHeight;
             }
             $imageDesc = $imagesInfo[$j]["title"];
-            
-            createDivForImage($imagesInfo[$j]["width"], $height, $maxHeight, $emValue, $imageUrl,$imageDesc);
+            $id = $imagesInfo[$j]["itemId"];
+            createDivForImage($imagesInfo[$j]["width"], $height, $maxHeight, $emValue, $imageUrl,$imageDesc,$id);
         }
         echo "<div class='clearfix'></div>";
         echo '</div>';
@@ -190,7 +219,7 @@ function getImagesDivForPartner($arrayImageWithInfo, $startCount, $rowCount, $ma
 ?>
 <?php
 
-function createDivForImage($width, $height, $maxHeight, $emValue, $url ,$imageDesc) { ?>
+function createDivForImage($width, $height, $maxHeight, $emValue, $url ,$imageDesc,$id) { ?>
     <div class="image" style="width:<?php echo $width . "px" ?>;">
         <div class="imageInfo imageModalBox" style="width:<?php echo $width . "px" ?>;height:<?php echo $maxHeight + (2 * $emValue) . "px" ?>" >
             <input type="hidden" name="uploadedBy" value="test"/>
@@ -198,13 +227,13 @@ function createDivForImage($width, $height, $maxHeight, $emValue, $url ,$imageDe
             
         </div>
         <div class="imageSelector" style="z-index:-1;background-color: #FFFFFF;display:inline-block;height:<?php echo $maxHeight . "px" ?>;width:<?php echo $width . "px" ?>">
-            <img class="Imgcenter roundedBorderImage" style="margin-top:<?php echo (($maxHeight-$height)/2)."px";?>" src="<?php echo $url ?>" width="<?php echo $width . 'px' ?>" height="<?php echo $height . 'px' ?>" />
+            <img id="<?php echo $id?>" class="Imgcenter roundedBorderImage" style="margin-top:<?php echo (($maxHeight-$height)/2)."px";?>" src="<?php echo $url ?>" width="<?php echo $width . 'px' ?>" height="<?php echo $height . 'px' ?>" />
         </div>
    
         <div class="imageContent" style="width:<?php echo $width . "px" ?>" >
             <?php echo $imageDesc; ?> 
         </div>
-       <div class="getInfoForPic thoughtbot" style="left:<? echo ($width-(2 * $emValue))/2 ."px"?>;top:<?php echo ($maxHeight-(2 * $emValue))/2 ."px" ?>">GetInfo</div>
+       <div class="getInfoForPic thoughtbot" style="left:<?php echo ($width-(2 * $emValue))/2 ."px"?>;top:<?php echo ($maxHeight-(2 * $emValue))/2 ."px" ?>">GetInfo</div>
     </div>
 
 <?php } ?>

@@ -1,8 +1,4 @@
 <?php
-include_once '/Applications/MAMP/htdocs/socioEcommerceCommon/php/mysql/mysqlUtilities.php';
-include_once '/Applications/MAMP/htdocs/socioEcommerceCommon/php/utilities/loggerUtility.php';
-
-
 class FBBasicInfo {
 
     private $profileArray;
@@ -22,16 +18,31 @@ class FBBasicInfo {
     private $address;
     private $mobile;
     private static $logger;
+    private $interests;
+    private $queryFbObj;
+    function __construct() {
 
-    function __construct($profileArray, $userProfilePicArray) {
-        $this->profileArray = $profileArray;
-        $this->profilePicUrl = $userProfilePicArray["picture"];
+        $numargs = func_num_args();
+        if ($numargs == 4) {
+//            $this->profileArray = $profileArray;
+//            $this->profilePicUrl = $userProfilePicArray["picture"];
+//            $this->interests = $interests;
+            $this->profileArray = func_get_arg(0);
+            $this->profilePicUrl = func_get_arg(1);
+            $this->interests = func_get_arg(2);
+        } else {
+            $this->queryFbObj = func_get_arg(0);
+            $this->profileArray = $this->queryFbObj->getUserProfile();
+            $this->profilePicUrl = $this->queryFbObj->getUserProfilePic();
+            $this->profilePicUrl = $this->profilePicUrl["picture"];
+            $this->interests = $this->queryFbObj->getInterestsAsString();
+        }
         $this->init();
         $this->storeProfileInfoIntoDb();
     }
 
     private function init() {
-        self::$logger = new loggerUtility("mysqlUtilities");
+        //self::$logger = new loggerUtility("mysqlUtilities");
         $this->facebookUserId = $this->profileArray["id"] ? $this->profileArray["id"] : "NA";
         $this->name = isset($this->profileArray["name"]) ? $this->profileArray["name"] : "NA";
         $this->firstName = isset($this->profileArray["first_name"]) ? $this->profileArray["first_name"] : "NA";
@@ -46,8 +57,6 @@ class FBBasicInfo {
         $this->username = isset($this->profileArray["username"]) ? $this->profileArray["username"] : "NA";
         $this->address = isset($this->profileArray["address"]) ? $this->profileArray["address"] : "NA";
         $this->mobile = isset($this->profileArray["mobile"]) ? $this->profileArray["mobile"] : "NA";
-
-        error_log("FaceBookUserIdInit " . $this->facebookUserId);
     }
 
     public function getUserId() {
@@ -105,41 +114,43 @@ class FBBasicInfo {
             die("Error Occured Please try Again Later");
         }
         if (!$userStatus) {
+            $this->interests = mysql_escape_string($this->interests);
+            $this->likes = mysql_escape_string($this->likes);
             $insertProfileInfo = "INSERT INTO "
                     . "userDetails" .
-                    "(name,firstname,lastname,username,facebookuserid,locale,email,verified,type,facebookurl,profilepicurl,firstlogintimestamp,lastlogintimestamp)
-                             VALUES('$this->name','$this->firstName','$this->lastName','$this->username','$this->facebookUserId','$this->locale','$this->email','$this->verified','user','$this->link','$this->profilePicUrl',".time().",".time().");   
+                    "(name,firstname,lastname,username,facebookuserid,locale,email,verified,type,facebookurl,profilepicurl,firstlogintimestamp,lastlogintimestamp,interests)
+                             VALUES('$this->name','$this->firstName','$this->lastName','$this->username','$this->facebookUserId','$this->locale','$this->email','$this->verified','user','$this->link','$this->profilePicUrl'," . time() . "," . time() . ",'$this->interests');   
                             ";
-            self::$logger->phpInfoLogger("Inserting User Information with userId " . $this->facebookUserId);
+            //self::$logger->phpInfoLogger("Inserting User Information with userId " . $this->facebookUserId);
             $result = mysqlUtilities::executeSqlStatement($insertProfileInfo);
             if (is_null($result)) {
-                self::$logger->phpErrorLogger("Error While inserting new user data into database");
+              //  self::$logger->phpErrorLogger("Error While inserting new user data into database");
                 die("Error Occured Please try Again Later");
             }
-            self::$logger->phpInfoLogger("Insertion Information was successful " . $this->facebookUserId);
+            //self::$logger->phpInfoLogger("Insertion Information was successful " . $this->facebookUserId);
         } else {
             $updateDetails = "UPDATE " . mysqlInfo::$userTable . " SET lastlogintimestamp=" . time() . " WHERE facebookuserid ='$this->facebookUserId'";
-            self::$logger->phpInfoLogger("Updating User Information with userId " . $this->facebookUserId);
+            //self::$logger->phpInfoLogger("Updating User Information with userId " . $this->facebookUserId);
             $result = mysqlUtilities::executeSqlStatement($updateDetails);
             if (is_null($result)) {
-                self::$logger->phpErrorLogger("Error While Updating user data into database");
+              //  self::$logger->phpErrorLogger("Error While Updating user data into database");
                 die("Error Occured Please try Again Later");
             }
-            self::$logger->phpInfoLogger("Updation was Successful for user with" . $this->facebookUserId);
+           // self::$logger->phpInfoLogger("Updation was Successful for user with" . $this->facebookUserId);
         }
     }
 
     private function checkUserStatus($facebookuserid) {
-       
+
         $sqlCheckUserStatustatement = "SELECT 1 FROM userDetails WHERE facebookuserid=$facebookuserid";
         $result = mysqlUtilities::executeSqlStatement($sqlCheckUserStatustatement);
-        self::$logger->phpInfoLogger("Checking User Status " . $facebookuserid);
+        //self::$logger->phpInfoLogger("Checking User Status " . $facebookuserid);
         if (is_null($result)) {
-            self::$logger->phpErrorLogger("Error While Checking Whether User Exists Or Not " . $facebookuserid);
-            self::$logger->mysqlErrorLogger("Error While Checking Whether User Exists Or Not " . $facebookuserid . "\n" . mysql_error());
+          //  self::$logger->phpErrorLogger("Error While Checking Whether User Exists Or Not " . $facebookuserid);
+           // self::$logger->mysqlErrorLogger("Error While Checking Whether User Exists Or Not " . $facebookuserid . "\n" . mysql_error());
             return -1;
         }
-        self::$logger->phpInfoLogger("Execution Of Checking User Status  " . $facebookuserid . " was Successful");
+        //self::$logger->phpInfoLogger("Execution Of Checking User Status  " . $facebookuserid . " was Successful");
         if (mysql_num_rows($result) == 0) {
             return 0;
         } else {

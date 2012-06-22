@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-error_log("STATE IN LOGIN PAGE ".$sessionId);
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,7 +23,7 @@ error_log("STATE IN LOGIN PAGE ".$sessionId);
 
         $user_id = $facebook->getUser();
         $params = array(
-            'scope' => 'read_stream, friends_likes,user_interests,email',
+            'scope' => 'read_stream, friends_likes,user_interests,email,user_status',
             'redirect_uri' => $HOME_PAGE_URL,
         );
         
@@ -34,7 +32,6 @@ error_log("STATE IN LOGIN PAGE ".$sessionId);
         ?>
     </head>
     <body>
-
         <div id="loginBox">
             <form id="login">
                 <h1>Log In</h1>

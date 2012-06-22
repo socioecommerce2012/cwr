@@ -18,11 +18,11 @@ global $FB_BASIC_INFO;$FB_BASIC_INFO="../php/fb/FBBasicInfo.php";
 
 /* Site Urls and Includes*/
 
-global $HOME_PAGE_URL;$HOME_PAGE_URL="http://localhost:8888/socioEcommerceCommon/src/homeV5.php";
+global $HOME_PAGE_URL;$HOME_PAGE_URL="http://ecom-socioecommerce2012.dotcloud.com/src/homeV5.php";
 
-global $LOGIN_PAGE_NO_USER_URL;$LOGIN_PAGE_NO_USER_URL="http://localhost:8888/socioEcommerceCommon/src/login.php";
+global $LOGIN_PAGE_NO_USER_URL;$LOGIN_PAGE_NO_USER_URL="http://ecom-socioecommerce2012.dotcloud.com/src/login.php";
 
-global $LOGIN_PAGE_NO_SESSION_URL;$LOGIN_PAGE_NO_SESSION_URL="http://localhost:8888/socioEcommerceCommon/src/login.php";
+global $LOGIN_PAGE_NO_SESSION_URL;$LOGIN_PAGE_NO_SESSION_URL="http://ecom-socioecommerce2012.dotcloud.com/src/login.php";
 
 
 

@@ -11,12 +11,14 @@ class fileUtility {
     }
 
      public static function appendContentToAFile($filePath, $stringToBeWrittenToFile) {
+        $fileHandler = self::openFile($filePath, "a"); //read + append
+        echo "<br/>FILE HANDLER".$fileHandler;
+        fseek($fileHandler,SEEK_END);
+         echo "<br/>DATA".$stringToBeWrittenToFile;
+         echo "<br/>PATH".$filePath;
+        //file_put_contents($filePath, $stringToBeWrittenToFile, FILE_APPEND | LOCK_EX);
         
-        
-        $fileHandler = self::openFile($filePath, "a+"); //read + append
-        
-        fwrite($fileHandler, $stringToBeWrittenToFile);
-        
+        fwrite($fileHandler,$stringToBeWrittenToFile);
         self::closeFile($fileHandler);
     }
 

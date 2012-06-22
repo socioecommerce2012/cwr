@@ -51,7 +51,7 @@ function readFromExcelSheetAndStoreIntoImageInfoDataBase($excelFilePath,$imagePa
     arrayToSqlStatement($arrayImageWithInfo, "itemInfo");
 }
 
-readFromExcelSheetAndStoreIntoImageInfoDataBase("/Users/kodakand/Desktop/Test_data.xls", "../../src/img/");
+
 ?>
 
 
